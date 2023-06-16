@@ -754,6 +754,13 @@ game:GetService("ReplicatedStorage").RemoteEvents.Door:FireServer(unpack(args))
      end,
 })
 
+Unlockables:AddButton({
+     Name = "Unlock Attic",
+     Callback = function()
+          game:GetService("ReplicatedStorage").RemoteEvents.BloxyPack:FireServer(1)
+
+     end,
+})
 
 
 OrionLib:Init()

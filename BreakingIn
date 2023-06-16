@@ -755,7 +755,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.Door:FireServer(unpack(args))
 })
 
 Unlockables:AddButton({
-     Name = "Unlock Attic",
+     Name = "Get a pie dish / bloxy pack",
      Callback = function()
           game:GetService("ReplicatedStorage").RemoteEvents.BloxyPack:FireServer(1)
 

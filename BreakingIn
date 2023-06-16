@@ -298,6 +298,17 @@ GiveItems:AddButton({
      end
 })
 
+GiveItems:AddButton({
+     Name = "Give Broom",
+     Callback = function()
+          local args = {
+               [1] = true,
+               [2] = "Broom"
+          }
+
+          game:GetService("ReplicatedStorage").RemoteEvents.BasementWeapon:FireServer(unpack(args))
+     end
+})
 
 
 GiveItems:AddButton({

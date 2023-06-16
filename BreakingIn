@@ -190,7 +190,7 @@ Fun:AddDropdown({
 Fun:AddButton({
      Name = "Refresh Player Dropdown",
      Callback = function()
-          oadstring(game:HttpGet(('https://raw.githubusercontent.com/lmaolmaoyaaa/BreakingIn/main/BreakingIn')))()
+          loadstring(game:HttpGet(('https://raw.githubusercontent.com/lmaolmaoyaaa/BreakingIn/main/BreakingIn')))()
      end
 })
 

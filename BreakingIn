@@ -18,6 +18,7 @@ print("Break in script loaded")
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
+
 local Window = OrionLib:MakeWindow({Name = "Breaking in", HidePremium = false, SaveConfig = true, ConfigFolder = "01config"})
 
 OrionLib:MakeNotification({
@@ -189,7 +190,7 @@ Fun:AddDropdown({
 Fun:AddButton({
      Name = "Refresh Player Dropdown",
      Callback = function()
-          -- the loadstring should be here but didnt put it to loadstring yet
+          oadstring(game:HttpGet(('https://raw.githubusercontent.com/lmaolmaoyaaa/BreakingIn/main/BreakingIn')))()
      end
 })
 

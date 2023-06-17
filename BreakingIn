@@ -552,7 +552,7 @@ LocalPlayer:AddButton({
      Name = "Immunity",
      Callback = function()
           while wait(0.1) do
-               game:GetService("ReplicatedStorage").RemoteEvents.MakeStealth:FireServer(0.5)
+               game:GetService("ReplicatedStorage").RemoteEvents.MakeStealth:FireServer(13)
           end
      end
 })
